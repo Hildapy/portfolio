@@ -1,0 +1,1192 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<!--<html lang="en" class="no-js">-->
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<!--<meta name="viewport" content="width=device-width">-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hilda's Portfolio</title>
+<link href="css/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="css/responsive.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="img/H.png">
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js?ver=1.4.2'></script>
+    <!--<script src="js/modernizr.js"></script>--> <!-- Modernizr -->
+    <script src="js/menu.js" type="text/javascript"></script>
+    <script src="js/filter.js" type="text/javascript"></script>   
+    <script src="js/barchart.js" type="text/javascript"></script>   
+
+<!--	Google Analytics Tracking-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53339947-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<script src="respond.min.js"></script>
+<style type="text/css">
+@import url("Bebas_Book/stylesheet.css");
+@import url("Bebas_Regular/stylesheet.css");
+@import url("Helvetica/stylesheet.css");
+@import url("HelveticaNeue-UltraLight/stylesheet.css");
+
+
+body,td,th {
+	font-family: Helvetica;
+	color: #666;
+}
+a:link {
+	color: #666;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #666;
+}
+a:hover {
+	cursor: pointer;
+	text-decoration: none;
+	color: #666;
+}
+a:active {
+	text-decoration: none;
+	color: #666;
+}
+a:selected {
+	text-decoration: none;
+	color: #333;
+}
+p {
+	font-family: Helvetica;
+	font-size: 16px;
+	color: #666;
+	text-align: center;
+	letter-spacing: 0px;
+	line-height:150%;
+	padding-bottom:30px;
+	vertical-align: top;
+}
+
+</style>
+</head>
+<body>
+    <div id="loading">
+      <img id="loading-image" src="img/loader.gif" alt="Loading..." />
+    </div>
+<div class="wrapper">
+
+<div class="gridContainer clearfix">
+<div class="menu">
+	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 42 42" enable-background="new 0 0 42 42" xml:space="preserve">
+    <circle fill="none" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="21" cy="21" r="20"/>
+    <line fill="none" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="11.417" y1="13" x2="30.667" y2="13"/>
+    <line fill="none" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="11.417" y1="21" x2="30.667" y2="21"/>
+    <line fill="none" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="11.417" y1="29" x2="30.667" y2="29"/>
+    </svg>
+</div>
+<div class="menu-close">
+	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 42 42" enable-background="new 0 0 42 42" xml:space="preserve">
+    <circle fill="none" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="21" cy="21" r="20"/>
+    <line fill="none" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="11.417" y1="21" x2="30.667" y2="21"/>
+    </svg>
+</div>
+<div class="options">
+</div>
+<div class="options-show">
+	<table>
+        <tr><td><a class="menu-link" href="#section2">My Expertise</a></td></tr>
+        <tr><td><a class="menu-link" href="#section3">Tech Skills</a></td></tr>
+        <tr><td><a class="menu-link" href="#section4">My Work</a></td></tr>
+        <tr><td><a class="menu-link" href="#section5">My Contacts</a></td></tr>
+    </table>
+</div>
+
+	<section id="section1" class="cd-section">
+      <div class="hero-image">
+      <div class="hero-h1">Hilda <br>UX / Web <br>Designer</div>   
+      </div>
+      <div class="hero-p"></div>      
+    </section>
+    
+    
+    <section id="section2" class="cd-section">
+        <div class="h1">My Expertise</div>   
+      <div class="element1">
+      	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<path fill="none" stroke="#89acab" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="  M42.496,49.844v-7.308c0,0,13.699-5.846,12.97-20.462C54.736,7.477,42.705,1.264,34.303,1.25l0,0c-0.004,0-0.01,0-0.014,0  c-0.005,0-0.01,0-0.014,0l0,0c-8.402,0.014-20.434,6.227-21.163,20.824c-0.731,14.616,12.97,20.462,12.97,20.462v7.308"/>
+<path fill="none" stroke="#89acab" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="  M40.271,63.484h-13.64v-3.166h16.807v-3.41H25.412V53.68h8.877V32.672c0,0,5.494,0,5.494-5.848c0-5.846-3.682-6.028-5.494-6.028  s-4.371,1.278-4.371,4.749c0,3.471,2.529,3.107,4.371,3.107c1.84,0,2.754-3.107,0.014-3.107"/>
+<path fill="none" stroke="#89acab" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="  M81.068,63.484H44.451H81.068z"/>
+<path fill="none" stroke="#89acab" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="  M81.068,63.484"/>
+<path fill="none" stroke="#89acab" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="  M67.188,100.629"/>
+<path fill="none" stroke="#89acab" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="  M55.494,95.879"/>
+<polyline fill="none" stroke="#89acab" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="  55.859,95.148 82.166,68.842 79.484,66.164 51.841,93.809 51.841,98.924 56.955,98.924 86.915,68.965 81.436,63.484 "/>
+<polygon fill="none" stroke="#89acab" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="  51.841,69.725 53.953,74.006 58.677,74.691 55.258,78.021 56.064,82.727 51.841,80.506 47.615,82.727 48.424,78.021 45.006,74.691   49.729,74.006 "/>
+<polygon fill="none" stroke="#89acab" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="  40.879,86.289 42.357,89.285 45.664,89.766 43.271,92.098 43.837,95.391 40.879,93.836 37.924,95.391 38.488,92.098 36.094,89.766   39.4,89.285 "/>
+</svg>
+      	<div class="p"><br>Create new design concepts and user experiences from abstract ideas</div>
+      </div> 
+      <div class="element2">
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+        <g id="Layer_1">
+            <g id="Layer_2_2_" display="none">
+                
+                    <rect x="60.198" y="62.453" transform="matrix(7.469216e-004 1 -1 7.469216e-004 150.976 -19.0859)" display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="49.679" height="7.098"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="84.876" y1="87.293" x2="88.425" y2="87.291"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="86.649" y1="85.163" x2="88.424" y2="85.162"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="84.873" y1="83.035" x2="88.421" y2="83.034"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="86.647" y1="80.905" x2="88.422" y2="80.904"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="84.87" y1="78.776" x2="88.419" y2="78.773"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="86.636" y1="68.131" x2="88.412" y2="68.129"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="84.87" y1="78.776" x2="88.419" y2="78.773"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="86.642" y1="76.646" x2="88.418" y2="76.645"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="84.866" y1="74.519" x2="88.415" y2="74.516"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="86.641" y1="72.389" x2="88.415" y2="72.385"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="84.862" y1="70.26" x2="88.413" y2="70.258"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="86.629" y1="55.355" x2="88.402" y2="55.354"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="84.86" y1="66.001" x2="88.409" y2="65.999"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="86.633" y1="63.871" x2="88.407" y2="63.871"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="84.858" y1="61.743" x2="88.405" y2="61.74"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="86.631" y1="59.613" x2="88.402" y2="59.611"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="84.855" y1="57.485" x2="88.402" y2="57.482"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="84.853" y1="53.228" x2="88.399" y2="53.225"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="86.624" y1="51.096" x2="88.398" y2="51.096"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="84.85" y1="48.969" x2="88.396" y2="48.967"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="86.621" y1="46.838" x2="88.396" y2="46.836"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="84.846" y1="44.711" x2="88.394" y2="44.707"/>
+            </g>
+            <g id="Layer_3" display="none">
+                
+                    <circle display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="40.328" cy="26.16" r="8.536"/>
+                
+                    <circle display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="40.328" cy="0.944" r="6.273"/>
+                
+                    <circle display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="60.328" cy="10.944" r="6.273"/>
+                
+                    <circle display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="20.328" cy="10.944" r="6.273"/>
+                
+                    <circle display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="40.328" cy="50.944" r="6.273"/>
+                
+                    <circle display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="60.328" cy="40.944" r="6.273"/>
+                
+                    <circle display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="20.328" cy="40.944" r="6.273"/>
+            </g>
+            <g id="Layer_2_1_" display="none">
+                
+                    <polyline fill="none" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="    83.523,52.685 87.968,46.337 53.261,22.037 49.112,27.961 81.135,50.386 83.312,47.283 54.192,26.893   "/>
+                
+                    <polygon display="inline" fill="none" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="    80.672,16.867 82.784,21.148 87.508,21.834 84.089,25.164 84.896,29.869 80.672,27.648 76.446,29.869 77.255,25.164     73.837,21.834 78.56,21.148   "/>
+                
+                    <polygon display="inline" fill="none" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="    69.71,33.432 71.188,36.428 74.495,36.908 72.103,39.24 72.668,42.533 69.71,40.979 66.755,42.533 67.319,39.24 64.925,36.908     68.231,36.428   "/>
+            </g>
+            <g id="Layer_4">
+                <path fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="    M72.925,88.047c0,1.428-1.009,2.585-2.255,2.585H4.536c-1.245,0-2.255-1.157-2.255-2.585V44.972c0-1.428,1.01-2.584,2.255-2.584    H70.67c1.246,0,2.255,1.157,2.255,2.584V88.047z"/>
+                
+                    <line fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="2.281" y1="81.909" x2="72.925" y2="81.909"/>
+                
+                    <rect x="5.512" y="45.618" fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="64.075" height="32.952"/>
+                <path fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="    M48.964,96.698h-1.723l-1.723-6.066H29.581l-1.723,6.066h-1.723c-0.594,0-1.077,0.482-1.077,1.076s0.483,1.077,1.077,1.077h22.83    c0.595,0,1.077-0.483,1.077-1.077S49.559,96.698,48.964,96.698z"/>
+            </g>
+            <g id="Layer_3_1_">
+                
+                    <rect x="9.5" y="55.449" fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="27" height="18.475"/>
+                <g>
+                    
+                        <circle fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="17.5" cy="48.5" r="0.5"/>
+                    
+                        <circle fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="13.5" cy="48.5" r="0.5"/>
+                    
+                        <circle fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="9.5" cy="48.5" r="0.5"/>
+                </g>
+                
+                    <line fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="5.512" y1="51.5" x2="69.587" y2="51.5"/>
+                
+                    <line fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="41.333" y1="67.02" x2="65.333" y2="67.02"/>
+                
+                    <line fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="41.333" y1="63.02" x2="65.333" y2="63.02"/>
+                
+                    <line fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="41.333" y1="59.02" x2="65.333" y2="59.02"/>
+                <path fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="    M50.458,72.723c0,0.664-0.538,1.201-1.202,1.201h-6.723c-0.664,0-1.201-0.537-1.201-1.201l0,0c0-0.663,0.538-1.201,1.201-1.201    h6.723C49.921,71.521,50.458,72.06,50.458,72.723L50.458,72.723z"/>
+            </g>
+            
+                <path display="none" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="   M77.883,19.524c-0.886-0.147-1.77-0.313-2.656-0.463c-0.234-0.04-0.369-0.149-0.409-0.394c-0.065-0.412-0.155-0.825-0.321-1.205   c-0.188-0.427-0.027-0.662,0.301-0.92c0.719-0.566,1.412-1.166,2.105-1.763c0.125-0.107,0.168-0.217,0.084-0.37   c-0.353-0.651-0.738-1.285-1.105-1.929c-0.085-0.149-0.208-0.201-0.379-0.133c-0.163,0.064-0.333,0.112-0.497,0.171   c-0.791,0.286-1.577,0.582-2.368,0.867c-0.207,0.075-0.357,0.041-0.509-0.13c-0.293-0.329-0.597-0.656-0.937-0.935   c-0.301-0.247-0.35-0.498-0.183-0.823c0.018-0.037,0.03-0.077,0.046-0.116c0.294-0.832,0.619-1.653,0.902-2.489   c0.098-0.29,0.071-0.342-0.201-0.499c-0.512-0.296-1.022-0.593-1.533-0.889c-0.518-0.299-0.512-0.294-0.893,0.167   c-0.578,0.7-1.168,1.39-1.748,2.087c-0.145,0.175-0.294,0.203-0.505,0.131c-0.45-0.151-0.907-0.281-1.374-0.368   c-0.343-0.063-0.389-0.121-0.448-0.468c-0.161-0.919-0.321-1.837-0.486-2.755c-0.023-0.13-0.064-0.239-0.187-0.305   c-0.832,0-1.665,0-2.498,0c-0.186,0.096-0.192,0.28-0.221,0.45C61.716,7.33,61.551,8.214,61.4,9.101   c-0.039,0.232-0.142,0.379-0.391,0.413c-0.431,0.059-0.85,0.178-1.256,0.326c-0.512,0.188-0.506,0.094-0.816-0.253   c-0.018-0.018-0.031-0.039-0.047-0.059c-0.591-0.7-1.172-1.407-1.77-2.101c-0.107-0.124-0.216-0.173-0.369-0.089   C56.1,7.691,55.465,8.076,54.82,8.444c-0.146,0.084-0.203,0.207-0.135,0.379c0.063,0.163,0.111,0.331,0.17,0.496   c0.287,0.791,0.584,1.578,0.869,2.369c0.074,0.205,0.041,0.355-0.127,0.509c-0.363,0.331-0.719,0.674-1.041,1.046   c-0.154,0.183-0.313,0.225-0.525,0.142c-0.102-0.04-0.203-0.072-0.307-0.11c-0.828-0.301-1.653-0.619-2.49-0.903   c-0.289-0.1-0.348-0.073-0.5,0.194c-0.291,0.506-0.583,1.01-0.876,1.514c-0.313,0.54-0.311,0.531,0.17,0.93   c0.697,0.58,1.392,1.166,2.085,1.749c0.157,0.133,0.188,0.271,0.123,0.464c-0.145,0.435-0.277,0.874-0.365,1.323   c-0.086,0.437-0.088,0.45-0.531,0.529c-0.851,0.153-1.703,0.308-2.557,0.449c-0.17,0.029-0.354,0.035-0.45,0.22   c0,0.833,0,1.667,0,2.499c0.095,0.185,0.28,0.192,0.45,0.22c0.888,0.148,1.771,0.312,2.657,0.464   c0.217,0.037,0.375,0.123,0.408,0.365c0.063,0.448,0.176,0.888,0.342,1.304c0.146,0.36,0.046,0.586-0.246,0.781   c-0.025,0.019-0.053,0.04-0.077,0.062c-0.702,0.587-1.408,1.172-2.102,1.77c-0.135,0.117-0.161,0.233-0.073,0.393   c0.347,0.636,0.724,1.255,1.08,1.887c0.097,0.171,0.228,0.217,0.419,0.148c0.346-0.122,0.689-0.249,1.035-0.372   c0.604-0.215,1.201-0.447,1.807-0.659c0.178-0.062,0.338-0.081,0.477,0.085c0.301,0.357,0.631,0.691,0.984,0.993   c0.276,0.239,0.332,0.472,0.176,0.782c-0.023,0.044-0.037,0.094-0.053,0.141c-0.304,0.838-0.627,1.668-0.912,2.512   c-0.088,0.259-0.059,0.325,0.184,0.464c0.52,0.3,1.037,0.602,1.557,0.902c0.516,0.299,0.514,0.296,0.893-0.167   c0.576-0.7,1.168-1.389,1.748-2.087c0.152-0.185,0.313-0.211,0.529-0.13c0.414,0.154,0.84,0.271,1.271,0.357   c0.438,0.086,0.45,0.088,0.529,0.53c0.154,0.851,0.308,1.704,0.449,2.558c0.028,0.17,0.035,0.354,0.221,0.45   c0.833,0,1.666,0,2.498,0c0.122-0.066,0.163-0.174,0.187-0.305c0.165-0.926,0.329-1.852,0.489-2.779   c0.055-0.313,0.109-0.381,0.42-0.439c0.41-0.076,0.811-0.193,1.211-0.308c0.531-0.154,0.525-0.145,0.889,0.294   c0.582,0.706,1.17,1.409,1.768,2.102c0.107,0.123,0.216,0.174,0.369,0.091c0.652-0.354,1.285-0.738,1.93-1.106   c0.146-0.085,0.205-0.205,0.138-0.379c-0.065-0.17-0.117-0.347-0.181-0.519c-0.287-0.782-0.576-1.563-0.857-2.347   c-0.074-0.204-0.045-0.354,0.125-0.508c0.375-0.343,0.734-0.703,1.077-1.078c0.141-0.154,0.282-0.186,0.468-0.119   c0.109,0.041,0.219,0.078,0.329,0.117c0.831,0.302,1.653,0.62,2.489,0.904c0.291,0.1,0.347,0.073,0.5-0.195   c0.291-0.507,0.585-1.009,0.878-1.513c0.313-0.541,0.311-0.533-0.171-0.93c-0.701-0.577-1.391-1.166-2.086-1.749   c-0.157-0.132-0.187-0.271-0.123-0.464c0.153-0.466,0.291-0.938,0.388-1.421c0.064-0.327,0.118-0.368,0.457-0.428   c0.926-0.166,1.854-0.315,2.778-0.491c0.127-0.023,0.216-0.076,0.28-0.182c0-0.832,0-1.666,0-2.499   C78.238,19.559,78.053,19.553,77.883,19.524z M63.332,28.087c-3.918-0.005-7.111-3.202-7.092-7.101   c0.02-3.924,3.166-7.069,7.088-7.085c3.902-0.016,7.094,3.171,7.1,7.091C70.436,24.899,67.242,28.091,63.332,28.087z"/>
+        </g>
+        <g id="Layer_1_copy">
+            <g id="Layer_2_4_">
+                
+                    <rect x="65.366" y="37.093" transform="matrix(0.7066 0.7076 -0.7076 0.7066 52.7531 -47.734)" fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="37.143" height="5.306"/>
+                
+                    <line fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="93.402" y1="52.792" x2="95.279" y2="50.917"/>
+                
+                    <line fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="91.154" y1="50.54" x2="93.029" y2="48.665"/>
+                
+                    <line fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="88.902" y1="48.287" x2="90.78" y2="46.412"/>
+                
+                    <line fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="88.902" y1="48.287" x2="90.78" y2="46.412"/>
+                
+                    <line fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="86.653" y1="46.033" x2="88.531" y2="44.158"/>
+                
+                    <line fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="84.403" y1="43.781" x2="86.282" y2="41.905"/>
+                
+                    <line fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="82.154" y1="41.527" x2="84.031" y2="39.653"/>
+                
+                    <line fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="79.904" y1="39.274" x2="81.781" y2="37.4"/>
+                
+                    <line fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="77.655" y1="37.021" x2="79.532" y2="35.147"/>
+                
+                    <line fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="75.405" y1="34.769" x2="77.282" y2="32.895"/>
+                
+                    <line fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="73.156" y1="32.517" x2="75.033" y2="30.642"/>
+                
+                    <line fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="70.906" y1="30.263" x2="72.783" y2="28.39"/>
+            </g>
+            <g id="Layer_3_3_" display="none">
+                
+                    <circle display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="40.328" cy="26.16" r="8.536"/>
+                
+                    <circle display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="40.328" cy="0.944" r="6.273"/>
+                
+                    <circle display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="60.328" cy="10.944" r="6.273"/>
+                
+                    <circle display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="20.328" cy="10.944" r="6.273"/>
+                
+                    <circle display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="40.328" cy="50.944" r="6.273"/>
+                
+                    <circle display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="60.328" cy="40.944" r="6.273"/>
+                
+                    <circle display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="20.328" cy="40.944" r="6.273"/>
+            </g>
+            <g id="Layer_2_copy">
+                
+                    <polyline display="none" fill="none" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="    68.316,38.274 72.761,31.926 38.054,7.626 33.905,13.55 65.928,35.975 68.104,32.873 38.985,12.482   "/>
+                
+                    <polygon fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="    65.465,2.457 67.577,6.738 72.301,7.423 68.882,10.753 69.688,15.458 65.465,13.238 61.239,15.458 62.048,10.753 58.63,7.423     63.353,6.738   "/>
+                
+                    <polygon fill="none" stroke="#A384C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="    54.503,19.021 55.981,22.017 59.288,22.498 56.896,24.83 57.461,28.123 54.503,26.568 51.548,28.123 52.112,24.83 49.718,22.498     53.024,22.017   "/>
+            </g>
+            <g id="Layer_4_1_" display="none">
+                
+                    <rect x="1.512" y="33.287" display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="55.488" height="28.536"/>
+                
+                    <rect x="1.512" y="33.287" display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="55.488" height="65.713"/>
+            </g>
+            <g id="Layer_3_copy" display="none">
+                
+                    <rect x="4.965" y="41.801" display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="23.382" height="15.999"/>
+                <g display="inline">
+                    
+                        <circle fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="11.894" cy="35.783" r="0.433"/>
+                    
+                        <circle fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="8.43" cy="35.783" r="0.433"/>
+                    
+                        <circle fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="4.965" cy="35.783" r="0.433"/>
+                </g>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.512" y1="38.381" x2="57" y2="38.381"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="32.533" y1="51.82" x2="53.316" y2="51.82"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="32.533" y1="48.356" x2="53.316" y2="48.356"/>
+                
+                    <line display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="32.533" y1="44.893" x2="53.316" y2="44.893"/>
+                
+                    <path display="inline" fill="none" stroke="#666766" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="    M40.435,56.76c0,0.575-0.465,1.04-1.041,1.04h-5.822c-0.575,0-1.041-0.465-1.041-1.04l0,0c0-0.574,0.466-1.041,1.041-1.041h5.822    C39.97,55.719,40.435,56.186,40.435,56.76L40.435,56.76z"/>
+            </g>
+        </g>
+        </svg>      	
+		<div class="p"><br>Prepare wireframes, mock-ups and designs for production</div> 
+      </div>
+      <div class="element3">
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+        <g id="Layer_3">
+            <g>
+                
+                    <polygon fill="none" stroke="#7F6B4E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="    80.207,91.08 75.84,90.447 73.887,86.488 71.933,90.447 67.565,91.08 70.726,94.16 69.98,98.512 73.887,96.457 77.794,98.512     77.046,94.16   "/>
+                
+                    <polygon fill="none" stroke="#7F6B4E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="    59.425,91.465 57.719,88.004 56.012,91.465 52.194,92.018 54.957,94.709 54.305,98.512 57.719,96.717 61.133,98.512     60.479,94.709 63.242,92.018   "/>
+                
+                    <polygon fill="none" stroke="#7F6B4E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="    44.849,92.645 43.429,89.766 42.007,92.645 38.83,93.105 41.129,95.348 40.587,98.512 43.429,97.018 46.269,98.512 45.726,95.348     48.027,93.105   "/>
+                
+                    <polygon fill="none" stroke="#7F6B4E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="    32.198,93.701 31.033,91.34 29.867,93.701 27.263,94.08 29.148,95.916 28.703,98.512 31.033,97.287 33.361,98.512 32.916,95.916     34.803,94.08   "/>
+                
+                    <polygon fill="none" stroke="#7F6B4E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="    20.568,94.524 19.606,92.575 18.646,94.524 16.496,94.835 18.052,96.353 17.685,98.493 19.606,97.481 21.528,98.493     21.161,96.353 22.718,94.835   "/>
+            </g>
+            
+                <path display="none" fill="none" stroke="#63544D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="   M75.986,91.715c0,0,1.035,5.115,5.115,5.115s-9.676,4.224-12.887-3.38c0,0,0.044-0.008,0.106-0.019   c-2.499,0.361-5.086,0.557-7.741,0.557c-20.626,0-37.346-11.45-37.346-25.575s16.72-25.575,37.346-25.575   c20.625,0,37.345,11.45,37.345,25.575C97.925,79.119,89.618,87.905,75.986,91.715"/>
+            <path fill="none" stroke="#7F6B4E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="   M98.623,48.041c0-13.792-12.479-24.973-27.871-24.973c-4.913,0-9.527,1.144-13.535,3.144c0.007,0.235,0.02,0.469,0.02,0.706   c0,9.389-5.786,17.564-14.334,21.829c0.418,13.465,12.723,24.267,27.85,24.267c1.982,0,3.914-0.191,5.778-0.543   c-0.047,0.01-0.079,0.018-0.079,0.018c2.396,7.424,12.662,3.301,9.617,3.301s-3.818-4.996-3.818-4.996   C92.424,67.074,98.623,58.495,98.623,48.041z"/>
+            <path fill="none" stroke="#7F6B4E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="   M17.868,49.67c0,0-0.773,4.996-3.817,4.996c-3.045,0,7.221,4.123,9.617-3.301c0,0-0.032-0.008-0.079-0.018   c1.865,0.352,3.796,0.543,5.778,0.543c15.392,0,27.871-11.181,27.871-24.973c0-13.792-12.479-24.973-27.871-24.973   c-15.393,0-27.871,11.18-27.871,24.973C1.495,37.372,7.694,45.951,17.868,49.67"/>
+            <path fill="none" stroke="#7F6B4E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="   M34.687,21.779c0,3.15-2.554,5.705-5.704,5.705v5.759 M34.687,21.779c0-3.15-2.554-5.704-5.704-5.704   c-3.15,0-5.705,2.554-5.705,5.704"/>
+            
+                <circle fill="none" stroke="#7F6B4E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="28.982" cy="37.495" r="0.5"/>
+        </g>
+        <g id="Layer_2">
+        </g>
+        </svg>
+      	<div class="p"><br>Conduct user tests and solicit feedback from users</div>
+      </div>
+      <div class="element4">
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+        <g id="Layer_3">
+            <g>
+                <path fill="none" stroke="#B3976D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="    M63.581,36.944l0.013-0.011c-0.025-0.026-0.056-0.05-0.084-0.074c-0.025-0.028-0.048-0.057-0.074-0.083l-0.013,0.011    c-2.897-2.242-15.198,1.812-15.198,1.812h0.001c-6.598,2.084-14.567,6.337-22.354,14.826c-1.527-0.239-15.146-1.764-24.282,18.661    c0,0-0.067,1.413,0.808,0.809c0.875-0.606,6.183-2.717,10.091,1.885l1.084,1.272l-2.192,2.189c0,0-0.504,0.44-0.033,1.112    c0,0,1.556,2.398,4.318,5.191h-0.001c0.026,0.025,0.053,0.051,0.079,0.08c0.025,0.023,0.051,0.05,0.078,0.076v-0.002    c2.793,2.764,5.192,4.32,5.192,4.32c0.673,0.471,1.109-0.035,1.109-0.035l2.191-2.191l1.273,1.082    c4.602,3.911,2.491,9.218,1.884,10.094c-0.605,0.874,0.808,0.807,0.808,0.807c20.429-9.133,18.905-22.754,18.662-24.279    C55.432,66.71,59.684,58.74,61.77,52.143l0,0C61.77,52.145,65.822,39.845,63.581,36.944z M34.862,69.792    c-1.184,1.183-3.103,1.185-4.286,0c-1.183-1.183-1.183-3.104,0-4.285c1.183-1.185,3.102-1.185,4.286,0    C36.048,66.688,36.048,68.609,34.862,69.792z M46.479,60.012c-1.691,1.691-4.434,1.691-6.124,0c-1.688-1.688-1.688-4.432,0-6.121    c1.69-1.691,4.432-1.691,6.124,0C48.171,55.58,48.171,58.322,46.479,60.012z"/>
+                
+                    <circle fill="none" stroke="#B3976D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="11.229" cy="89.095" r="1.211"/>
+                
+                    <circle fill="none" stroke="#B3976D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="7.191" cy="93.132" r="1.213"/>
+                
+                    <circle fill="none" stroke="#B3976D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="3.155" cy="97.167" r="1.212"/>
+            </g>
+            
+                <polygon fill="none" stroke="#B3976D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="   84.656,6.448 89.379,7.134 85.961,10.464 86.77,15.169 82.545,12.948 78.32,15.169 79.127,10.464 75.709,7.134 80.432,6.448    82.545,2.167  "/>
+            
+                <polygon fill="none" stroke="#B3976D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="   94.984,21.728 98.291,22.208 95.896,24.54 96.461,27.833 93.506,26.278 90.549,27.833 91.113,24.54 88.721,22.208 92.027,21.728    93.506,18.731  "/>
+            
+                <polygon fill="none" stroke="#B3976D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="   69.257,12.544 72.563,13.025 70.169,15.357 70.732,18.65 67.777,17.095 64.82,18.65 65.387,15.357 62.993,13.025 66.3,12.544    67.777,9.548  "/>
+        </g>
+        <g id="Layer_2">
+        </g>
+        </svg>
+		<div class="p"><br>Partner with developers, designers and PMs to oversee a product from conception until launch</div>
+      </div>
+	</section>
+
+    <section id="section3" class="cd-section">
+        <div class="h3">Tech Skills</div>   
+      <div id="chart">
+       <div class="left-col">
+        <ul id="bars">
+          <li><div data-percentage="80" class="bar"><span>Photoshop</span></div></li>
+          <li><div data-percentage="75" class="bar"><span>Illustrator</span></div></li>
+          <li><div data-percentage="60" class="bar"><span>Dreamweaver</span></div></li>
+          <li><div data-percentage="55" class="bar"><span>Lightroom</span></div></li>
+          <li><div data-percentage="50" class="bar"><span>Premiere Pro</span></div></li>
+          <li><div data-percentage="50" class="bar"><span>InDesign</span></div></li>
+          <li><div data-percentage="35" class="bar"><span>After Effects</span></div></li>
+          <li><div data-percentage="35" class="bar"><span>Flash Professional</span></div></li>
+        </ul>
+      </div>
+      <div class="right-col">
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+        <g id="Layer_1_1_">
+            <g id="Layer_4">
+                
+                    <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="256.3926" y1="-279.6572" x2="355.6074" y2="-279.6572" gradientTransform="matrix(1 0 0 -1 -256 -245)">
+                    <stop offset="0" style="stop-color:#89ACAB"/>
+                    <stop offset="1" style="stop-color:#A384C8"/>
+                </linearGradient>
+                
+                    <path fill="none" stroke="url(#SVGID_1_)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="    M98.607,64.295c0,1.965-1.389,3.557-3.104,3.557H4.496c-1.713,0-3.103-1.592-3.103-3.557V5.019c0-1.966,1.39-3.556,3.103-3.556    h91.008c1.717,0,3.104,1.591,3.104,3.556V64.295L98.607,64.295z"/>
+                
+                    <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="256.3926" y1="-300.8496" x2="355.6074" y2="-300.8496" gradientTransform="matrix(1 0 0 -1 -256 -245)">
+                    <stop offset="0" style="stop-color:#89ACAB"/>
+                    <stop offset="1" style="stop-color:#A384C8"/>
+                </linearGradient>
+                
+                    <line fill="none" stroke="url(#SVGID_2_)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.393" y1="55.85" x2="98.607" y2="55.85"/>
+                
+                    <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="260.8389" y1="-273.5811" x2="351.0137" y2="-273.5811" gradientTransform="matrix(1 0 0 -1 -256 -245)">
+                    <stop offset="0" style="stop-color:#89ACAB"/>
+                    <stop offset="1" style="stop-color:#A384C8"/>
+                </linearGradient>
+                
+                    <rect x="5.839" y="5.908" fill="none" stroke="url(#SVGID_3_)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="88.175" height="45.346"/>
+                
+                    <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="287.7363" y1="-318.5073" x2="324.1172" y2="-318.5073" gradientTransform="matrix(1 0 0 -1 -256 -245)">
+                    <stop offset="0" style="stop-color:#89ACAB"/>
+                    <stop offset="1" style="stop-color:#A384C8"/>
+                </linearGradient>
+                
+                    <path fill="none" stroke="url(#SVGID_4_)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="    M65.634,76.2h-2.37l-2.371-8.349H38.961L36.589,76.2h-2.371c-0.817,0-1.482,0.663-1.482,1.479c0,0.819,0.665,1.483,1.482,1.483    h31.417c0.82,0,1.482-0.664,1.482-1.483C67.117,76.863,66.454,76.2,65.634,76.2z"/>
+            </g>
+        </g>
+        <g>
+            <linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="42.5005" y1="32.2324" x2="57.5" y2="32.2324">
+                <stop offset="0" style="stop-color:#89ACAB"/>
+                <stop offset="1" style="stop-color:#A384C8"/>
+            </linearGradient>
+            <path fill="url(#SVGID_5_)" d="M56.999,27.215c-2.849,2.386-2.423,5.343,0.501,7.044c-0.682,1.861-1.62,3.531-3.451,4.529   c-0.611,0.334-1.252,0.209-1.822-0.082c-1.261-0.643-2.484-0.658-3.755-0.027c-1.084,0.536-2.07,0.331-2.894-0.573   c-2.266-2.492-3.51-5.337-2.938-8.766c0.516-3.088,3.938-4.761,6.479-3.366c0.76,0.417,1.466,0.324,2.237-0.027   C53.434,25.003,55.748,25.549,56.999,27.215z"/>
+            <linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="49.9092" y1="22.626" x2="53.499" y2="22.626">
+                <stop offset="0" style="stop-color:#89ACAB"/>
+                <stop offset="1" style="stop-color:#A384C8"/>
+            </linearGradient>
+            <path fill="url(#SVGID_6_)" d="M53.372,20.611c0.657,1.813-1.358,4.202-3.395,4.021C49.521,22.967,51.447,20.683,53.372,20.611z"/>
+        </g>
+        </svg> 
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="windows" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+        <g id="Layer_1_3_">
+            <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="6.5" y1="47.75" x2="93.5" y2="47.75">
+                <stop offset="0" style="stop-color:#89ACAB"/>
+                <stop offset="1" style="stop-color:#A384C8"/>
+            </linearGradient>
+            
+                <path fill="none" stroke="url(#SVGID_1_)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="   M92.5,71.985c0,1.606-1.212,2.908-2.712,2.908H10.214c-1.498,0-2.714-1.302-2.714-2.908V23.515c0-1.608,1.216-2.908,2.714-2.908   h79.574c1.5,0,2.712,1.301,2.712,2.908V71.985L92.5,71.985z"/>
+            <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="10.3867" y1="47.7246" x2="89.4814" y2="47.7246">
+                <stop offset="0" style="stop-color:#89ACAB"/>
+                <stop offset="1" style="stop-color:#A384C8"/>
+            </linearGradient>
+            
+                <rect x="11.387" y="25.052" fill="none" stroke="url(#SVGID_2_)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="77.095" height="45.346"/>
+        </g>
+        <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="0.5" y1="77.1436" x2="99.5" y2="77.1436">
+            <stop offset="0" style="stop-color:#89ACAB"/>
+            <stop offset="1" style="stop-color:#A384C8"/>
+        </linearGradient>
+        <path fill="none" stroke="url(#SVGID_3_)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="  M98.5,77.144c0,1.242-1.023,2.25-2.285,2.25H3.785c-1.262,0-2.285-1.008-2.285-2.25l0,0c0-1.242,1.023-2.25,2.285-2.25h92.43  C97.477,74.894,98.5,75.901,98.5,77.144L98.5,77.144z"/>
+        <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="42.4727" y1="48.7422" x2="56.7383" y2="48.7422">
+            <stop offset="0" style="stop-color:#89ACAB"/>
+            <stop offset="1" style="stop-color:#A384C8"/>
+        </linearGradient>
+        <path fill="url(#SVGID_4_)" d="M42.545,43.729c0.148-0.023,0.296-0.055,0.443-0.085c0.111-0.023,0.221-0.051,0.332-0.073  c0.148-0.029,0.297-0.053,0.445-0.081c0.107-0.021,0.214-0.044,0.322-0.065c0.154-0.03,0.308-0.057,0.462-0.088  c0.149-0.03,0.298-0.063,0.448-0.093c0.19-0.039,0.381-0.073,0.572-0.111c0.153-0.031,0.306-0.068,0.459-0.098  c0.19-0.038,0.382-0.07,0.573-0.106c0.15-0.029,0.299-0.062,0.448-0.092c0.19-0.038,0.381-0.076,0.572-0.111  c0.084-0.016,0.084-0.012,0.084,0.072c0,1.839,0,3.679,0,5.518c0,0.099,0,0.098-0.097,0.099c-0.186,0.001-0.372,0.007-0.559,0.008  c-0.359,0.001-0.717,0-1.077,0.003c-0.473,0.002-0.946,0.005-1.419,0.011c-0.28,0.003-0.559,0.009-0.838,0.014  c-0.411,0.007-0.822,0.014-1.242,0.021c0-0.038,0-0.058,0-0.079c0-1.524,0-3.049-0.001-4.574  C42.474,43.764,42.484,43.738,42.545,43.729z M47.705,49.302c0,0.869,0,1.738,0,2.608c0,0.92,0,1.842,0,2.762  c0,0.101-0.015,0.106-0.11,0.081c-0.097-0.027-0.196-0.043-0.296-0.063c-0.103-0.021-0.207-0.039-0.31-0.059  c-0.208-0.039-0.417-0.079-0.625-0.12c-0.172-0.033-0.343-0.071-0.515-0.104c-0.173-0.035-0.347-0.065-0.52-0.1  c-0.146-0.029-0.291-0.062-0.436-0.091c-0.151-0.03-0.303-0.057-0.454-0.088c-0.101-0.02-0.202-0.045-0.303-0.063  c-0.16-0.031-0.32-0.06-0.48-0.09c-0.146-0.027-0.29-0.059-0.435-0.089c-0.168-0.033-0.335-0.068-0.503-0.102  c-0.064-0.013-0.131-0.022-0.193-0.041c-0.02-0.005-0.037-0.033-0.048-0.053c-0.007-0.014-0.001-0.034-0.001-0.052  c0-1.508,0-3.015,0-4.522c0-0.089,0.045-0.128,0.132-0.116c0.037,0.005,0.074,0.012,0.111,0.012c0.16,0.002,0.319-0.001,0.479,0  c0.525,0.003,1.051,0.007,1.578,0.013c0.258,0.002,0.516,0.009,0.775,0.012c0.483,0.004,0.967,0.008,1.45,0.012  c0.218,0.003,0.436,0.01,0.654,0.013c0.038,0,0.055,0.013,0.053,0.051C47.704,49.177,47.705,49.239,47.705,49.302z M56.738,49.262  c0,2.404,0,4.805,0,7.208c0,0.025,0,0.05,0,0.089c-0.119-0.021-0.229-0.04-0.339-0.062c-0.164-0.031-0.328-0.064-0.491-0.099  c-0.158-0.032-0.318-0.068-0.478-0.1c-0.162-0.032-0.324-0.06-0.485-0.091c-0.141-0.028-0.278-0.059-0.418-0.086  c-0.19-0.037-0.382-0.068-0.572-0.105c-0.152-0.029-0.303-0.063-0.454-0.095c-0.189-0.037-0.38-0.071-0.57-0.11  c-0.197-0.039-0.396-0.082-0.594-0.12c-0.23-0.046-0.461-0.089-0.691-0.134c-0.191-0.038-0.384-0.079-0.576-0.117  c-0.143-0.029-0.285-0.059-0.429-0.088c-0.165-0.033-0.329-0.068-0.494-0.1c-0.162-0.033-0.325-0.061-0.486-0.092  c-0.134-0.026-0.266-0.057-0.399-0.083c-0.147-0.029-0.296-0.055-0.443-0.082c-0.111-0.022-0.224-0.043-0.333-0.07  c-0.105-0.025-0.104-0.029-0.104-0.141c0-1.874,0-3.746-0.001-5.62c0-0.088,0.001-0.088,0.086-0.088c0.274,0,0.549-0.002,0.823,0  c0.33,0.002,0.656,0.007,0.985,0.012c0.293,0.003,0.585,0.009,0.876,0.013c0.421,0.004,0.841,0.009,1.262,0.012  c0.526,0.004,1.054,0.008,1.583,0.013c0.3,0.002,0.598,0.01,0.896,0.012c0.451,0.005,0.903,0.008,1.354,0.014  c0.147,0.001,0.296,0.008,0.443,0.012c0.036,0,0.05,0.016,0.047,0.05C56.736,49.233,56.738,49.248,56.738,49.262z M56.738,41.018  c0,2.401,0,4.801,0,7.202c0,0.09,0,0.09-0.089,0.09c-0.158,0-0.314-0.002-0.472-0.001c-0.335,0.003-0.67,0.01-1.005,0.013  c-0.435,0.005-0.869,0.008-1.305,0.012c-0.319,0.004-0.639,0.01-0.959,0.013c-0.42,0.005-0.84,0.008-1.261,0.013  c-0.329,0.003-0.658,0.009-0.988,0.013c-0.426,0.004-0.853,0.008-1.279,0.012c-0.307,0.004-0.614,0.01-0.921,0.014  c-0.023,0-0.046,0-0.077,0c0-0.032,0-0.055,0-0.078c-0.001-1.884-0.001-3.768-0.001-5.652c0-0.093,0.018-0.11,0.113-0.125  c0.117-0.019,0.232-0.042,0.348-0.063c0.153-0.029,0.308-0.058,0.461-0.088c0.106-0.021,0.211-0.044,0.317-0.064  c0.192-0.039,0.384-0.076,0.576-0.115c0.159-0.031,0.315-0.067,0.474-0.098c0.188-0.036,0.375-0.069,0.562-0.106  c0.149-0.029,0.299-0.063,0.449-0.092c0.149-0.03,0.3-0.057,0.451-0.086c0.103-0.021,0.205-0.043,0.309-0.065  c0.101-0.021,0.202-0.042,0.303-0.063c0.119-0.024,0.235-0.045,0.354-0.068c0.193-0.037,0.386-0.073,0.579-0.111  c0.154-0.031,0.308-0.066,0.461-0.096c0.188-0.038,0.375-0.071,0.561-0.108c0.156-0.03,0.313-0.063,0.469-0.094  c0.189-0.037,0.378-0.072,0.567-0.11c0.151-0.03,0.303-0.064,0.454-0.094c0.165-0.033,0.329-0.065,0.494-0.096  c0.032-0.006,0.06,0.004,0.056,0.047C56.736,40.988,56.738,41.003,56.738,41.018z"/>
+        </svg>         
+        <br><br>The chart indicates my knowledge of Adobe softwares for design, video editing and coding.
+        I have an accute sense of color composition and speak HTML, CSS and a little bit of jQuery, Javascript and PHP. <br><br>
+        I am familiar with the agile development process with Scrum. For wireframing and high fidelity prototyping, I use Moqups and Axure.<br><br>
+        My gadgets include a Samsung tablet and a Windows Phone with an amazing camera!
+      </div>  
+      </div>
+    </section>
+       
+    <section id="section4" class="cd-section">
+    <div class="graybg"> 
+    <div class="line"></div>
+      <div class="h1">My Work</div>
+        <div class="filter">
+          <div id="all">All</div>
+          <div id="webdesign" class="highlight">Web Design</div>
+          <div id="uxui">UX/UI</div>
+          <div id="typo">Typography</div>
+          <div id="icon">Iconography</div>
+          <div id="print">Print Materials</div>
+          <div id="side">Side Projects</div>
+        </div>
+
+      <div class="graybg">
+          <div class="content">
+          
+          
+              <div class="exiconhomepage2014">
+                  <a href="javascript:void(0)" onClick="document.getElementById('ExiconHomepage2014-full').style.display='block';document.getElementById('fade').style.display='block';$('html').css('overflow','hidden')" style="float:auto">
+                      <img name="ExiconHomepage2014" src="img/Exicon_Homepage_2014.png" alt="ExiconHompage2014" id="ExiconHomepage2014" onMouseOver="this.src='img/hover.png'" onmouseout="this.src='img/Exicon_Homepage_2014.png'"> 
+                  </a>
+                  <p>Exicon Website 2014</p>
+              </div>
+              <div id="ExiconHomepage2014-full" class="white_content" style="display: none;"> 
+                  <a href="javascript:void(0)" onClick="document.getElementById('ExiconHomepage2014-full').style.display='none';document.getElementById('fade').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+                  <img style="width: 100%" src="img/full-size/Full_Exicon_Homepage_2014.png" alt="Screenshot">
+                  <a href="javascript:void(0)" onClick="document.getElementById('ExiconHomepage2014-full').style.display='none';document.getElementById('fade').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+              </div>
+              <a href="javascript:void(0)" onClick="document.getElementById('ExiconHomepage2014-full').style.display='none';document.getElementById('fade').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+	              <div id="fade" class="black_overlay" style="display: none;"></div>
+              </a>
+              
+              
+              <div class="appboard">
+                  <a href="javascript:void(0)" onClick="document.getElementById('AppBoard-full').style.display='block';document.getElementById('fade2').style.display='block';$('html').css('overflow','hidden')" style="float:auto">
+                      <img name="" src="img/AppBoard_Landing_Page.png" alt="AppBoard" id="AppBoard" onMouseOver="this.src='img/hover.png'" onmouseout="this.src='img/AppBoard_Landing_Page.png'"> 
+                  </a>
+                  <p>AppBoard Website</p>
+              </div>
+              <div id="AppBoard-full" class="white_content" style="display: none;"> 
+                  <a href="javascript:void(0)" onClick="document.getElementById('AppBoard-full').style.display='none';document.getElementById('fade2').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+                  <img style="width: 100%" src="img/full-size/AppBoard.png" alt="Screenshot">
+                  <a href="javascript:void(0)" onClick="document.getElementById('AppBoard-full').style.display='none';document.getElementById('fade2').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+              </div>
+              <a href="javascript:void(0)" onClick="document.getElementById('AppBoard-full').style.display='none';document.getElementById('fade2').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+	              <div id="fade2" class="black_overlay" style="display: none;"></div>
+              </a>
+              
+              
+              <div class="apiaxle">
+                  <a href="javascript:void(0)" onClick="document.getElementById('ApiAxle-full').style.display='block';document.getElementById('fade3').style.display='block';$('html').css('overflow','hidden')" style="float:auto">
+                      <img name="" src="img/ApiAxle_Landing_Page.png" alt="ApiAxle" id="ApiAxle" onMouseOver="this.src='img/hover.png'" onmouseout="this.src='img/ApiAxle_Landing_Page.png'"> 
+                  </a>
+                  <p>ApiAxle Website</p>
+              </div>
+              <div id="ApiAxle-full" class="white_content" style="display: none;">
+                  <a href="javascript:void(0)" onClick="document.getElementById('ApiAxle-full').style.display='none';document.getElementById('fade3').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+                  <img style="width: 100%" src="img/full-size/ApiAxle.png" alt="Screenshot">
+                  <a href="javascript:void(0)" onClick="document.getElementById('ApiAxle-full').style.display='none';document.getElementById('fade3').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+              </div>
+              <a href="javascript:void(0)" onClick="document.getElementById('ApiAxle-full').style.display='none';document.getElementById('fade3').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+	              <div id="fade3" class="black_overlay" style="display: none;"></div>
+              </a>
+              
+              
+              <div class="progress">
+                  <a href="javascript:void(0)" onClick="document.getElementById('AppProfile-full').style.display='block';document.getElementById('fade6').style.display='block';$('html').css('overflow','hidden')" style="float:auto">
+                      <img name="app-profile" src="img/app-profile.png" alt="App Profile" id="app-profile" onMouseOver="this.src='img/hover.png'" onmouseout="this.src='img/app-profile.png'"> 
+                  </a>
+                  <p>App Profile</p>
+              </div>
+              <div id="AppProfile-full" class="white_content" style="display: none;"> 
+                  <a href="javascript:void(0)" onClick="document.getElementById('AppProfile-full').style.display='none';document.getElementById('fade6').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+                  <div class="lightbox-leftcol">
+                      <div class="p" style="text-align:left;padding:30px 0px 10px 0px">
+                        User journey map of different personas
+                        <img style="width:600px;padding-bottom:30px;display:block" src="img/full-size/personas.png" alt="Screenshot">
+                        Putting UI wireframes on the wall and see how the App Profile connects with all the other product features.
+                        <img style="width:600px;padding-bottom:30px;display:block" src="img/full-size/user-journey.jpg" alt="Screenshot">
+                        <!--Feature demo
+                        <img style="width:600px;padding-bottom:30px;display:block" src="img/full-size/All-Apps-Mockup.gif" alt="Screenshot">-->
+                        App Profile UI (2013)
+                        <img style="width:600px;padding-bottom:30px;display:block" src="img/full-size/app-profile-1.png" alt="Screenshot">
+                        App Profile UI (2014)
+                        <img style="width:600px;display:block" src="img/full-size/app-profile-2.png" alt="Screenshot">
+                      </div> 
+                  </div>
+                  <div class="lightbox-rightcol">    
+                      <div class="h4">App Profile</div>
+                      <div class="p" style="text-align:left;padding-bottom:10px">
+                            <div class="h5">Feature:</div>View essential app information<br>
+                            <div class="h5">Project objectives:</div><br>To provide users with a summary of each app and enable users to access other features, including analytics, cloud storage, appstore information, app owner and developer information.<br>                
+                            <div class="h5">Target users:</div><br>Product Managers, app owners, developers<br>              
+                            <div class="h5">Accomplishments:</div><br>
+                            · Identified the user journey of different personas<br>
+                            · Produced UI sketches and created wireframes<br>
+                            · Partnered with developers to prototype the user interface<br>
+                            · Carried out user tests and refined the design<br>
+                      </div>  
+                  </div>
+                  <a href="javascript:void(0)" onClick="document.getElementById('AppProfile-full').style.display='none';document.getElementById('fade6').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+              </div>
+              <a href="javascript:void(0)" onClick="document.getElementById('AppProfile-full').style.display='none';document.getElementById('fade6').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+	              <div id="fade6" class="black_overlay" style="display: none;"></div>
+              </a>
+                            
+              
+              <div class="analytics">
+                  <a href="javascript:void(0)" onClick="document.getElementById('Analytics-full').style.display='block';document.getElementById('fade5').style.display='block';$('html').css('overflow','hidden')" style="float:auto">
+                      <img name="Analytics" src="img/Chart.png" alt="Analytics" id="Analytics" onMouseOver="this.src='img/hover.png'" onmouseout="this.src='img/Chart.png'"> 
+                  </a>
+                  <p>Analytics Visualization</p>
+              </div>
+              <div id="Analytics-full" class="white_content" style="display: none;"> 
+                  <a href="javascript:void(0)" onClick="document.getElementById('Analytics-full').style.display='none';document.getElementById('fade5').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+                  <div class="h4">Analytics Visualization</div>
+                  <div class="p" style="text-align:left;padding-bottom:10px">
+						<div class="h5">Features:</div> View AppStore Analytics and In App Analytics<br>
+                        <div class="h5">Project objective:</div><br>To communicate significant figures in a visually appealing user interface that is easy to understand and operate<br>                
+                        <div class="h5">Target users:</div><br>Product Managers, developers, app owners and publishers<br>              
+                        <div class="h5">Accomplishments:</div><br>
+                        · Identified various scenarios and use cases<br>
+                        · Created wireframes based on the user flow of different personas<br>
+                        · Partnered with developers to prototype the user interface<br>
+                        · Carried out user tests and refined the design<br><br>
+                  </div>
+                  <div class="p" style="text-align:left;padding:30px 0px 10px 0px">
+                      In App Analytics UI (2013) 
+                      <img style="width:600px;padding-bottom:30px;display:block" src="img/full-size/Analytics.png" alt="Screenshot">
+                      In App Analytics UI (2014)                    
+                      <img style="width:600px;padding-bottom:30px;display:block" src="img/full-size/in-app-analytics.png" alt="Screenshot">
+                      App Store Analytics UI (2013)                    
+                      <img style="width:600px;padding-bottom:30px;display:block" src="img/full-size/appstore-analytics-2013.png" alt="Screenshot">
+                      App Store Analytics UI (2014)                    
+                      <img style="width:600px;padding-bottom:30px;display:block" src="img/full-size/appstore-analytics-2014.png" alt="Screenshot">
+
+                  </div>
+                  <a href="javascript:void(0)" onClick="document.getElementById('Analytics-full').style.display='none';document.getElementById('fade5').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+              </div>
+              <a href="javascript:void(0)" onClick="document.getElementById('Analytics-full').style.display='none';document.getElementById('fade5').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+	              <div id="fade5" class="black_overlay" style="display: none;"></div>
+              </a>
+
+              
+              <div class="progressbar">
+                  <a href="javascript:void(0)" onClick="document.getElementById('ProgressBar-full').style.display='block';document.getElementById('fade4').style.display='block';$('html').css('overflow','hidden')" style="float:auto">
+                      <img name="ProgressBar" src="img/Steps.png" alt="ProgressBar" id="ProgressBar" onMouseOver="this.src='img/hover.png'" onmouseout="this.src='img/Steps.png'"> 
+                  </a>
+                  <p>App Brief Builder</p>
+              </div>
+              <div id="ProgressBar-full" class="white_content" style="display: none;"> 
+                  <a href="javascript:void(0)" onClick="document.getElementById('ProgressBar-full').style.display='none';document.getElementById('fade4').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+                  <div class="h4">App Brief Builder</div>
+                  <div class="p" style="text-align:left;padding-bottom:10px">
+						<div class="h5">Feature:</div>Submit requests for developers to build specific apps<br>
+                        <div class="h5">Project objective:</div><br>To create a medium for companies and individuals to look for suitable developers who can help them build apps<br>                
+                        <div class="h5">Target users:</div><br>Business owners, developers<br>              
+                        <div class="h5">Accomplishments:</div><br>
+                        · Identified the user journey of different personas<br>
+                        · Produced UI sketches and created wireframes<br>
+                        · Partnered with developers to prototype the user interface<br>
+                        · Carried out user tests and refined the design<br>
+                        · Prepared a feature demonstration video for a corporate client<br>
+                                   
+                  <img style="width:600px" src="img/full-size/pitch-management.png" alt="Screenshot">
+                  </div>
+                  <a href="javascript:void(0)" onClick="document.getElementById('ProgressBar-full').style.display='none';document.getElementById('fade4').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+              </div>
+              <a href="javascript:void(0)" onClick="document.getElementById('ProgressBar-full').style.display='none';document.getElementById('fade4').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+	              <div id="fade4" class="black_overlay" style="display: none;"></div>
+              </a>
+              
+                           
+           
+              <div class="calculator">
+                  <a href="javascript:void(0)" onClick="document.getElementById('Calculator-full').style.display='block';document.getElementById('fade7').style.display='block';$('html').css('overflow','hidden')" style="float:auto">
+                      <img name="Calculator" src="img/AppCal.png" alt="Calculator" id="Calculator" onMouseOver="this.src='img/hover.png'" onmouseout="this.src='img/AppCal.png'"> 
+                  </a>
+                  <p>App Cost Calculator</p>
+              </div>
+              <div id="Calculator-full" class="white_content" style="display: none;"> 
+                  <a href="javascript:void(0)" onClick="document.getElementById('Calculator-full').style.display='none';document.getElementById('fade7').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+                  <!--<div class="h4">App Cost Calculator</div>-->
+<!--                  <div class="p" style="text-align:justify;padding-bottom:30px">
+                  </div>-->                  
+                  <img style="width: 90%" src="img/full-size/Calculator.gif" alt="Screenshot">
+                  <a href="javascript:void(0)" onClick="document.getElementById('Calculator-full').style.display='none';document.getElementById('fade7').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+              </div>
+              <a href="javascript:void(0)" onClick="document.getElementById('Calculator-full').style.display='none';document.getElementById('fade7').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+	              <div id="fade7" class="black_overlay" style="display: none;"></div>
+              </a>
+
+              
+              <div class="pricing">
+                  <a href="javascript:void(0)" onClick="document.getElementById('Pricing-1-full').style.display='block';document.getElementById('fade8').style.display='block';$('html').css('overflow','hidden')" style="float:auto">
+                      <img name"Pricing-1" src="img/Typo-Pricing.png" alt="Pricing-1" id="Pricing-1" onMouseOver="this.src='img/hover.png'" onmouseout="this.src='img/Typo-Pricing.png'">
+                  </a>
+                  <p>Pricing</p>
+              </div>
+              <div id="Pricing-1-full" class="white_content" style="display: none;"> 
+                  <a href="javascript:void(0)" onClick="document.getElementById('Pricing-1-full').style.display='none';document.getElementById('fade8').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+                  <div class="h4">Pricing</div>
+                  <div class="p" style="text-align:left;padding-bottom:10px">
+						<div class="h5">Objectives:</div><br>
+                        · To highlight package features by utilizing different font sizes and colors<br>
+						· To encourage visitors to sign up with clear call to action buttons<br><br>
+                  		<img style="width:600px;padding-bottom:30px" src="img/full-size/Pricing-1.png" alt="Screenshot">
+                        <img style="width:600px;padding-bottom:30px" src="img/full-size/Pricing-2.png" alt="Screenshot">
+                  </div>
+                  <a href="javascript:void(0)" onClick="document.getElementById('Pricing-1-full').style.display='none';document.getElementById('fade8').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+              </div>
+              <a href="javascript:void(0)" onClick="document.getElementById('Pricing-1-full').style.display='none';document.getElementById('fade8').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+	              <div id="fade8" class="black_overlay" style="display: none;"></div>
+              </a>
+              
+
+              <div class="cutprice"> 
+                  <a href="javascript:void(0)" onClick="document.getElementById('CutPrice-full').style.display='block';document.getElementById('fade9').style.display='block';$('html').css('overflow','hidden')" style="float:auto">
+                  <img name"CutPrice" src="img/CutPrice.png" alt="CutPrice" id="CutPrice" onMouseOver="this.src='img/hover.png'" onmouseout="this.src='img/CutPrice.png'">
+                  </a>
+                  <p>Award Winning Logo</p>
+              </div>
+                            <div id="CutPrice-full" class="white_content" style="display: none;"> 
+                  <a href="javascript:void(0)" onClick="document.getElementById('CutPrice-full').style.display='none';document.getElementById('fade9').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+                      <div class="h4">Award Winning Logo</div>
+                      <div class="p" style="text-align:justify">
+                          This design was created for a logo design competition organized by CityU Students' Union and it won the second runner-up prize. The design of the logo highlights the mission of CUTPRICE, which is to offer students academic accessories and daily necessities at a lower price. The scissors on the left hand side represent the action of cutting while the line diagonally bisecting the letters ‘T’ and ‘P’ indicates the price reduction.
+                      </div>                  
+                      <img style="width: 100%" src="img/full-size/Logo_Design.png" alt="Screenshot">
+                  <a href="javascript:void(0)" onClick="document.getElementById('CutPrice-full').style.display='none';document.getElementById('fade9').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+              </div>
+              <a href="javascript:void(0)" onClick="document.getElementById('CutPrice-full').style.display='none';document.getElementById('fade9').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+	              <div id="fade9" class="black_overlay" style="display: none;"></div>
+              </a>
+
+
+              <div class="christmas-wallpaper"> 
+                  <a href="javascript:void(0)" onClick="document.getElementById('christmas-wallpaper-full').style.display='block';document.getElementById('fade10').style.display='block';$('html').css('overflow','hidden')" style="float:auto">
+                  <img name"Christmas Wallpaper" src="img/christmas-wallpaper.png" alt="CutPrice" id="Christmas-Wallpaper" onMouseOver="this.src='img/hover.png'" onmouseout="this.src='img/christmas-wallpaper.png'">
+                  </a>
+                  <p>Christmas Wallpaper</p>
+              </div>
+                            <div id="christmas-wallpaper-full" class="white_content" style="display: none;"> 
+                  <a href="javascript:void(0)" onClick="document.getElementById('christmas-wallpaper-full').style.display='none';document.getElementById('fade10').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+                      <div class="h4">Christmas Wallpaper</div>
+                      <div class="p" style="text-align:justify">
+							This wallpaper was created for company promotion purposes and was distributed as a part of the seasonal social media marketing campaign in 2014.<br><br>     
+                      		<img style="width:600px;" src="img/full-size/christmas-wallpaper-full.png" alt="Screenshot">
+                            The image was designed with the Christmas icon set created by Manuela Langella with modifications in size and color. <br><br>
+                            Source:<br>http:www.smashingmagazine.com/2014/11/25/freebie-christmas-icon-set-ai-psd-eps-pdf-svg-png/<br>
+                      </div>
+                  <a href="javascript:void(0)" onClick="document.getElementById('christmas-wallpaper-full').style.display='none';document.getElementById('fade10').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+              </div>
+              <a href="javascript:void(0)" onClick="document.getElementById('christmas-wallpaper-full').style.display='none';document.getElementById('fade10').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+	              <div id="fade10" class="black_overlay" style="display: none;"></div>
+              </a>
+
+              
+              <div class="share-btns">
+                  <img name"share-btns" src="img/share-btns.png" alt="share-btns" id="share-btns" onMouseOver="this.src='img/comingsoon.png'" onmouseout="this.src='img/share-btns.png'">
+                  <p>
+                      Share Buttons
+                  </p>
+              </div>
+                         
+                        
+              <div class="portfolio-typo">
+                  <img name"portfolio-typo" src="img/PortfolioTypo.png" alt="portfolio-typo" id="portfolio-typo" onMouseOver="this.src='img/comingsoon.png'" onmouseout="this.src='img/PortfolioTypo.png'">
+                  <p>
+                      Previous Portfolio
+                  </p>
+              </div>
+              
+              <div class="icons">
+                  <img name"icons" src="img/icons.png" alt="icons" id="icons" onMouseOver="this.src='img/comingsoon.png'" onmouseout="this.src='img/icons.png'">
+                  <p>
+                      Icons
+                  </p>
+              </div> 
+              
+              <div class="infograph">
+                  <a href="javascript:void(0)" onClick="document.getElementById('infograph-full').style.display='block';document.getElementById('fade14').style.display='block';$('html').css('overflow','hidden')" style="float:auto">
+                  <img name"infograph" src="img/infograph.png" alt="infograph" id="infograph" onMouseOver="this.src='img/hover.png'" onmouseout="this.src='img/infograph.png'">
+                </a>  
+                  <p>Infographics</p>
+              </div>
+              <div id="infograph-full" class="white_content" style="display: none;"> 
+                  <a href="javascript:void(0)" onClick="document.getElementById('infograph-full').style.display='none';document.getElementById('fade14').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+                      <div class="h4">Infographics</div>
+                      <div class="p" style="text-align:justify;padding-bottom:30px">
+                          The information graphics below were created to present complex information based on hand-drawn sketches and illustrations. They were used in product presentations and shared in the form of a blog post. The visual representation of data in the form of an infographic can enhance comprehension and encourage the audience to share it on the internet via social media channels.                      
+                      <br>
+                      </div>                  
+                      <img style="width: 100%" src="img/full-size/Infographic.png" alt="Screenshot">
+                  <a href="javascript:void(0)" onClick="document.getElementById('infograph-full').style.display='none';document.getElementById('fade14').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+              </div>
+              <a href="javascript:void(0)" onClick="document.getElementById('infograph-full').style.display='none';document.getElementById('fade14').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+	              <div id="fade14" class="black_overlay" style="display: none;"></div>
+              </a>
+              
+                        
+              <div class="exhibition-materials">
+                  <a href="javascript:void(0)" onClick="document.getElementById('exhibition-materials-full').style.display='block';document.getElementById('fade15').style.display='block';$('html').css('overflow','hidden')" style="float:auto">
+                  <img name"exhibition-materials" src="img/exhibitionmaterials.png" alt="exhibition-materials" id="exhibition-materials" onMouseOver="this.src='img/hover.png'" onmouseout="this.src='img/exhibitionmaterials.png'">
+                </a>  
+                  <p>Exhibition Materials</p>
+              </div>
+              <div id="exhibition-materials-full" class="white_content" style="display: none;"> 
+                  <a href="javascript:void(0)" onClick="document.getElementById('exhibition-materials-full').style.display='none';document.getElementById('fade15').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+                      <div class="h4">Exhibition Materials</div>
+                      <div class="p" style="text-align:justify;padding-bottom:30px">
+                          Exhibition boards and souvenir bookmarks for CityU's Professional and Creative Communications Project.
+                      </div>                  
+                      <img style="width: 100%" src="img/full-size/PCCP_Boards.png" alt="Screenshot">
+                  <a href="javascript:void(0)" onClick="document.getElementById('exhibition-materials-full').style.display='none';document.getElementById('fade15').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+              </div>
+              <a href="javascript:void(0)" onClick="document.getElementById('exhibition-materials-full').style.display='none';document.getElementById('fade15').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+	              <div id="fade15" class="black_overlay" style="display: none;"></div>
+              </a>
+              
+              
+              <div class="event-materials">
+                  <a href="javascript:void(0)" onClick="document.getElementById('event-materials-full').style.display='block';document.getElementById('fade16').style.display='block';$('html').css('overflow','hidden')" style="float:auto">
+                  <img name"event-materials" src="img/eventmaterials.png" alt="event-materials" id="event-materials" onMouseOver="this.src='img/hover.png'" onmouseout="this.src='img/eventmaterials.png'">
+                </a>  
+                  <p>Event Materials</p>
+              </div> 
+              <div id="event-materials-full" class="white_content" style="display: none;"> 
+                  <a href="javascript:void(0)" onClick="document.getElementById('event-materials-full').style.display='none';document.getElementById('fade16').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+                      <div class="h4">Event Materials</div>
+                      <div class="p" style="text-align:justify;padding-bottom:30px">
+                          Event brochures, tickets and stage backdrops were designed for La Feria organized by the Spanish Chamber of Commerce of Hong Kong.
+                      </div>                  
+                      <img style="width: 100%" src="img/full-size/SCC.png" alt="Screenshot">
+                      <img style="width: 100%" src="img/full-size/PrintedMaterial.png" alt="Screenshot">
+                  <a href="javascript:void(0)" onClick="document.getElementById('event-materials-full').style.display='none';document.getElementById('fade16').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+              </div>
+              <a href="javascript:void(0)" onClick="document.getElementById('event-materials-full').style.display='none';document.getElementById('fade16').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+	              <div id="fade16" class="black_overlay" style="display: none;"></div>
+              </a>
+              
+              
+              <div class="youthpulse">
+                  <a href="javascript:void(0)" onClick="document.getElementById('youthpulse-full').style.display='block';document.getElementById('fade17').style.display='block';$('html').css('overflow','hidden')" style="float:auto">
+                      <img name="youthpulse" src="img/youthpulse.png" alt="Youth Pulse" id="youthpulse" onMouseOver="this.src='img/hover.png'" onmouseout="this.src='img/youthpulse.png'"> 
+                  </a>
+                  <p>Youth Pulse</p>
+              </div>
+              <div id="youthpulse-full" class="white_content" style="display: none;"> 
+                  <a href="javascript:void(0)" onClick="document.getElementById('youthpulse-full').style.display='none';document.getElementById('fade17').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+                  <div class="h4">Youth Pulse</div>
+                  <div class="p" style="text-align:left;padding-bottom:30px">
+                  		You may find it strange that the site is made with Flash. Wait, what?! Yes. The Youth Pulse website was made in 2009 and back in those days web animations were commonly done with Flash. Now similar animations and interactivity can be done with CSS3 animations and transitions.
+                  </div>
+                  <div class="p" style="text-align:left;padding-bottom:30px">
+						<div class="h5">Client:</div>Young Pulse (a non-profit youth organization in Hong Kong)<br>
+                        <div class="h5">Target Audience:</div>Local teenagers<br>                
+                        <div class="h5">Project Objective:</div>To raise awareness of the issue of teenage drug abuse<br>              
+                        <div class="h5">Accomplishments:</div><br>
+                        · Identified the user flow of the website<br>
+                        · Produced UI sketches<br>
+                        · Designed and developed website user interface<br>
+                        · Created an interactive flash game<br>
+                        · Presented the website to the client<br><br>
+                        <div class="h5">Demo Site:</div><a href="http://youthpulse-demo.a0001.net" target="_blank" style="color:#666766">youthpulse-demo.a0001.net</a>
+                  </div>                 
+                  <div class="p" style="text-align:left;padding:30px 0px 10px 0px">
+                  	<img style="width:600px;padding-bottom:30px;display:block" src="img/full-size/yp.png" alt="Youth Pulse">
+                  	<img style="width:600px;padding-bottom:30px;display:block" src="img/full-size/yp-video.png" alt="Youth Pulse Event Footage">
+                    <img style="width:600px;padding-bottom:30px;display:block" src="img/full-size/yp-events.png" alt="Youth Pulse Events">
+                  	<img style="width:600px;padding-bottom:30px;display:block" src="img/full-size/yp-game.png" alt="Flash Game">
+                  	<img style="width:600px;padding-bottom:30px;display:block" src="img/full-size/yp-gameover.png" alt="Flash Game">
+                  </div> 
+                  <a href="javascript:void(0)" onClick="document.getElementById('youthpulse-full').style.display='none';document.getElementById('fade17').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+              </div>
+              <a href="javascript:void(0)" onClick="document.getElementById('youthpulse-full').style.display='none';document.getElementById('fade17').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+	              <div id="fade17" class="black_overlay" style="display: none;"></div>
+              </a>
+
+ 
+              <div class="artwave">
+                  <a href="javascript:void(0)" onClick="document.getElementById('artwave-full').style.display='block';document.getElementById('fade18').style.display='block';$('html').css('overflow','hidden')" style="float:auto">
+                      <img name="artwave" src="img/artwave.png" alt="ArtWave" id="youthpulse" onMouseOver="this.src='img/hover.png'" onmouseout="this.src='img/artwave.png'"> 
+                  </a>
+                  <p>ArtWave</p>
+              </div>
+              <div id="artwave-full" class="white_content" style="display: none;"> 
+                  <a href="javascript:void(0)" onClick="document.getElementById('artwave-full').style.display='none';document.getElementById('fade18').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+                  <div class="h4">ArtWave</div>
+                  <div class="p" style="text-align:left;padding-bottom:30px">
+                        ArtWave is a platform that pushes the boundaries of sharing artwork in the virtual world with an intuitive UI that highlights convenience and is tailored to meet the needs of artists, art fans and art gallery specialists. The platform leverages the perceptions of art fans on the aesthetics of art to create a community in the virtual world that can help discover aspiring artists in different countries.<br><br>
+                  		(This is a one man project that I have completed for a course called Dynamic Web Communication when I was studying for my master's degree.)
+                  </div>
+                  <div class="p" style="text-align:left;padding-bottom:30px">
+						<div class="h5">Project Status:</div><br>
+                   			ArtWave (2013) BETA version was hosted by CityU school server. No longer accessible.<br>
+							ArtWave (2015) Work in progress. Rebuilding database.<br><br>
+                        <div class="h5">Project Accomplishments:</div><br>
+                        · Identified key stakeholders of the platform<br>
+                        · Mapped out different scenarios and use cases<br>
+                        · Created wireframes<br>
+                        · Designed website and platform user interface<br>
+                        · Developed the frontend and backend of the platform with HTML, CSS and PHP<br>
+                        · Wrote documentation of the platform<br>
+                        · Demostrated the platform to a group of 30 people<br><br>          
+                        <div class="h5">Original Documentation:</div><a href="https://drive.google.com/file/d/0B_h4iuR9AhhhSE03VnZkU25seWs/view?usp=sharing" target="_blank" style="color:#666766!important">View File</a><br><br>
+						<div class="h5">ArtWave (2015) #WIP:</div><a href="http://artwave.is-best.net/" target="_blank" style="color:#666766">artwave.is-best.net</a><br><br>
+                  </div>                 
+                  <div class="p" style="text-align:left;padding:30px 0px 10px 0px">
+                  	<img style="width:600px;padding-bottom:30px;display:block" src="img/full-size/artwave.png" alt="ArtWave Homepage">
+                  	<img style="width:600px;padding-bottom:30px;display:block" src="img/full-size/artwave-screenshots.png" alt="ArtWave Screenshots">
+                  </div> 
+                  <a href="javascript:void(0)" onClick="document.getElementById('artwave-full').style.display='none';document.getElementById('fade18').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+              </div>
+              <a href="javascript:void(0)" onClick="document.getElementById('artwave-full').style.display='none';document.getElementById('fade18').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+	              <div id="fade18" class="black_overlay" style="display: none;"></div>
+              </a>
+              
+              
+              <div class="postcard">
+                  <a href="javascript:void(0)" onClick="document.getElementById('postcard-full').style.display='block';document.getElementById('fade19').style.display='block';$('html').css('overflow','hidden')" style="float:auto">
+                      <img name="postcard" src="img/postcard.png" alt="xPostcard" id="postcard" onMouseOver="this.src='img/hover.png'" onmouseout="this.src='img/postcard.png'"> 
+                  </a>
+                  <p>xPostcard</p>
+              </div>
+              <div id="postcard-full" class="white_content" style="display: none;"> 
+                  <a href="javascript:void(0)" onClick="document.getElementById('postcard-full').style.display='none';document.getElementById('fade19').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+                  <div class="h4">xPostcard</div>
+                  <div class="p" style="text-align:left;padding-bottom:30px">
+						xPostcard is a web application that allows travelers to send express postcards to friends and family via the internet. This side project is currently under development. Functional prototype is supporting Chrome browser for desktop, tablet and mobile.<br>  
+                  </div>
+                  <div class="p" style="text-align:left;padding-bottom:30px">
+						<div class="h5">Site:</div><a href="http://xpostcard.is-best.net/" target="_blank" style="color:#666766">xpostcard.is-best.net</a><br><br>
+                  </div>                 
+                  <div class="p" style="text-align:left;padding:30px 0px 10px 0px">
+                  	<img style="width:600px;padding-bottom:30px;display:block" src="img/full-size/xpostcard.png" alt="ArtWave Homepage">
+                  	<img style="width:600px;padding-bottom:30px;display:block" src="img/full-size/xpostcard-2.png" alt="ArtWave Screenshots">
+                  </div> 
+                  <a href="javascript:void(0)" onClick="document.getElementById('postcard-full').style.display='none';document.getElementById('fade19').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+                      <div class="p" style="padding:10px 20px 10px 0px">
+						  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="1.25" x2="13.75" y2="13.749"/>
+                          <line fill="#FFFFFF" stroke="#666766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.25" y1="13.749" x2="13.75" y2="1.25"/>
+                          </svg>
+                      </div>
+                  </a>
+              </div>
+              <a href="javascript:void(0)" onClick="document.getElementById('postcard-full').style.display='none';document.getElementById('fade19').style.display='none';$('html').css('overflow','visible')" style="float:right;z-index:22">
+	              <div id="fade19" class="black_overlay" style="display: none;"></div>
+              </a>
+              
+                            
+          </div>
+
+     </div>
+  	</section>
+    
+<!--    <section id="section5" class="cd-section">
+      <div class="section">
+        <div class="h1">Side Projects</div>  
+      </div>
+    </section> -->
+    
+    <section id="section5" class="cd-section">
+      <div class="section">
+        <div class="h1">My Contacts</div>   
+        <div class="p">If you want to talk to me about design, you can find me in the following places.</div>
+        <p><div class="LinkedIn"><a target="_blank" href="http://hk.linkedin.com/in/hildapy"><img src="img/LinkedIn-Normal.png" onmouseover="this.src='img/LinkedIn-Hover.png'" onmouseout="this.src='img/LinkedIn-Normal.png'" alt="LinkedIn"></a>
+        </div>
+        <div class="Twitter"><a target="_blank" href="https://twitter.com/hildapy"><img src="img/Twitter-Normal.png" onmouseover="this.src='img/Twitter-Hover.png'" onmouseout="this.src='img/Twitter-Normal.png'"alt="Twitter"></a>
+        </div>
+        <div class="Instagram"><a target="_blank" href="http://instagram.com/hildapyc"><img src="img/Instagram-Normal.png" onmouseover="this.src='img/Instagram-Hover.png'" onmouseout="this.src='img/Instagram-Normal.png'"alt="Instagram"></a>
+        </div>
+        <div class="fivehundredpx"><a target="_blank" href="https://500px.com/hildapy"><img src="img/500px-Normal.png" onmouseover="this.src='img/500px-Hover.png'" onmouseout="this.src='img/500px-Normal.png'"alt="500px"></a>
+        </div>
+        <div class="Email"><a target="_blank" href="mailto:hi.hildapy@gmail.com"><img src="img/Email-Normal.png" onmouseover="this.src='img/Email-Hover.png'" onmouseout="this.src='img/Email-Normal.png'"alt="Email"></a>
+        </div>
+		<p></p>
+      </div>
+      <!-- SnapWidget -->
+      <script src="http://snapwidget.com/js/snapwidget.js"></script>
+      <iframe src="http://snapwidget.com/in/?u=aGlsZGFweWN8aW58MTUwfDZ8Mnx8bm98MHxmYWRlSW58b25TdGFydHx5ZXN8eWVz&ve=070914" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+    </section>
+  <a class="back-to-top" id="BackToTop" href="#top" title="BackToTop" onclick="myFunction()"><img src="img/Back-to-top.png" name="BackToTop" id="BackToTop" /></a>
+ 	
+	<script src="js/jquery-2.1.1.js"></script>
+</div>
+<!-- Loading -->
+<script language="javascript" type="text/javascript">
+  $(window).load(function() {
+    $('#loading').fadeOut(500);
+  });
+</script>
+
+</body>
+</html>
